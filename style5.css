@@ -1,0 +1,175 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  fo
+
+}
+.menu-icon {
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-icon:focus {
+  outline: none;
+}
+
+.menu-icon:hover {
+  color: blue; /* change the color on hover */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+h1{
+  font-size: 1.30rem;
+  color: #0056b3;
+  text-align: right;
+  cursor: pointer;
+}
+h1:hover{
+  color:black ;
+}
+.push{
+  margin-right: auto;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 200px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+/* Hero Section */
+.hero {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 3rem;
+  text-align: left;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-round: 50px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0056b3;
+  transition: background-color 0.2s ease-out;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Features Section */
+.features {
+  background-color: #f8f8f8;
+  padding: 3rem;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #0056b3;
+}
+
+.features li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.features li strong {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #007bff;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+iframe {
+  width: 50%;
+  height: 400px;
+  border: none;
+}
+
+.cta h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
